@@ -22,7 +22,4 @@ RUN apk add --update \
 COPY run-java.sh /deployments/
 RUN chmod 755 /deployments/run-java.sh
 
-
-
-
 CMD [ "/deployments/run-java.sh" ]
