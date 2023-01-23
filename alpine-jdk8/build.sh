@@ -1,0 +1,1 @@
+docker build --no-cache -f Dockerfile -t spo-alpine-jdk8:1.0.0 .
